@@ -233,6 +233,12 @@ This project implements the research described in the COALESCE paper and is inte
 
 ## Caveats and Limitations
 
+### Simulation Nature
+- **This is NOT a real implementation**: This framework simulates agent behavior using mathematical models and random distributions, not actual LLM agents
+- **No actual agent communication**: "Agents" are data structures with hardware specifications; "task execution" uses `np.random.normal()` to simulate costs and times
+- **Theoretical validation only**: Results validate the mathematical framework and decision algorithms, not real-world agent interactions
+- **Mock market dynamics**: Supply, demand, and pricing variations are generated using statistical distributions, not actual market forces
+
 ### Simulation Constraints
 - **Restrictive Decision Thresholds**: High TOPSIS thresholds (>0.6), confidence requirements (>0.8), or skill compatibility thresholds (>0.7) may prevent outsourcing entirely, resulting in 0% metrics across all performance indicators
 - **Market Size Dependencies**: Performance varies significantly with agent population - small markets (5 agents) may show super-efficiency effects while large markets (50+ agents) exhibit realistic diseconomies of scale
