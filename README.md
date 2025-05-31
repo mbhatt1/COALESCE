@@ -229,18 +229,28 @@ The COALESCE simulation framework is designed for research and educational purpo
 
 This project implements the research described in the COALESCE paper and is intended for academic and research use.
 
-## Citation
+## Caveats and Limitations
 
-If you use this simulation framework in your research, please cite the original COALESCE paper:
+### Simulation Constraints
+- **Restrictive Decision Thresholds**: High TOPSIS thresholds (>0.6), confidence requirements (>0.8), or skill compatibility thresholds (>0.7) may prevent outsourcing entirely, resulting in 0% metrics across all performance indicators
+- **Market Size Dependencies**: Performance varies significantly with agent population - small markets (5 agents) may show super-efficiency effects while large markets (50+ agents) exhibit realistic diseconomies of scale
+- **Duration Sensitivity**: Short simulations (<7 days) may not capture market equilibrium effects, while very long simulations (>30 days) may show diminishing returns
 
-```
-@article{coalesce2025,
-  title={A Proposed Framework for Cost-Optimized and Secure Task Outsourcing Among Autonomous LLM Agents via Skill-based Competence Estimation (COALESCE)},
-  author={Del Rosario, Ronald F. and Narajala, Vineeth Sai and Habler, Idan},
-  year={2025}
-}
-```
+### Data Interpretation
+- **Zero-Value Results**: Experiments showing 0.0% across all metrics typically indicate no outsourcing occurred due to restrictive parameters rather than system failure
+- **Super-Efficiency Anomalies**: Cost reductions >100% in small-scale scenarios reflect idealized market conditions and should be interpreted as theoretical upper bounds
+- **Exploration vs Exploitation**: The ε=0.1 exploration rate may cause temporary performance degradation as the system learns optimal contractor relationships
+
+### Real-World Applicability
+- **Simplified Cost Models**: The simulation uses idealized cost calculations that may not reflect real-world complexity, network latency, or integration overhead
+- **Perfect Information Assumption**: Agents have complete visibility into contractor capabilities, which may not hold in practice
+- **Static Agent Behavior**: Contractor agents maintain consistent performance profiles without learning or adaptation over time
+
+### Technical Limitations
+- **Computational Scalability**: Large-scale simulations (>100 agents, >30 days) may require significant computational resources
+- **Random Seed Sensitivity**: Results may vary between runs when random_seed is null; use fixed seeds for reproducible experiments
+- **Configuration Dependencies**: Performance heavily depends on parameter tuning - default values may not be optimal for all research scenarios
 
 ## Contact
 
-For questions about the simulation framework or research collaboration, please refer to the original paper authors.
+For questions about the simulation framework or research collaboration, please use issues.
