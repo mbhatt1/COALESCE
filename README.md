@@ -1,10 +1,12 @@
 # COALESCE: Cost-Optimized Agent Labor Exchange via Skill-based Competence Estimation
 
-A comprehensive simulation framework implementing the COALESCE system described in the research paper "A Proposed Framework for Cost-Optimized and Secure Task Outsourcing Among Autonomous LLM Agents via Skill-based Competence Estimation."
+A **simulation framework** that models the COALESCE system described in the research paper "A Proposed Framework for Cost-Optimized and Secure Task Outsourcing Among Autonomous LLM Agents via Skill-based Competence Estimation."
 
 ## Overview
 
-COALESCE enables autonomous LLM agents to optimize resource utilization and operational costs through intelligent task outsourcing. The framework implements advanced multi-criteria decision algorithms, comprehensive cost modeling, and secure agent-to-agent communication protocols.
+This is a **theoretical simulation** that models how autonomous LLM agents could optimize resource utilization and operational costs through intelligent task outsourcing. The framework simulates advanced multi-criteria decision algorithms, comprehensive cost modeling, and agent-to-agent market dynamics using mathematical models and statistical distributions.
+
+**Important**: This is not an implementation of actual LLM agents communicating with each other, but rather a simulation framework that models the theoretical behavior described in the research paper.
 
 ## Key Features
 
