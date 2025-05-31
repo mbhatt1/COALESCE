@@ -1,0 +1,74 @@
+# COALESCE Configuration for Content Creation Scenario
+# Specialized configuration for content creation and marketing agents
+
+# Simulation Duration and Timing
+simulation_duration_days: 14  # Two weeks for content campaign
+time_step_seconds: 3600  # 1 hour steps
+
+# Agent Configuration
+num_client_agents: 20  # Marketing agencies and content creators
+num_contractor_agents: 50  # Specialized content creation contractors
+
+# Task Generation Parameters
+poisson_lambda: 6.5  # Higher task arrival rate for content creation
+
+# Task type distribution for content creation scenario
+task_type_distribution:
+  content_creation: 0.4      # Blog posts, articles, web copy
+  video_production: 0.2      # Video content, animations
+  social_media_management: 0.3  # Social media posts, campaigns
+  copywriting: 0.1           # Sales copy, email campaigns
+
+# Task parameter ranges (adjusted for content creation)
+complexity_factor_range: [0.3, 2.5]  # Wider range for creative tasks
+value_range: [25.0, 400.0]           # Content creation pricing range
+data_size_range_gb: [0.1, 20.0]      # From text to video files
+
+# Market Dynamics
+business_hours_multiplier: 2.8  # Content creation peaks during business hours
+quarterly_earnings_multiplier: 1.8  # Seasonal content campaigns
+maintenance_capacity_reduction: 0.15  # Less maintenance downtime
+
+# Decision Algorithm Parameters
+skill_compatibility_threshold: 0.75  # Higher threshold for creative skills
+topsis_threshold: 0.65
+min_confidence_threshold: 0.75
+learning_rate: 0.015  # Faster learning for creative preferences
+
+# Cost Model Parameters (adjusted for content creation)
+energy_cost_per_kwh: 0.08
+data_transfer_cost_per_gb: 0.08  # Lower data costs for content
+protocol_overhead_base_cost: 0.3
+integration_base_cost: 0.8
+latency_penalty_per_minute: 0.15  # Lower latency penalty for creative work
+
+# Security Parameters
+security_overhead_enabled: true
+chacha20_overhead_percent: 0.015  # Lower security overhead for content
+sgx_enclave_overhead_percent: 0.05
+
+# Network Parameters
+default_bandwidth_mbps: 500  # Lower bandwidth for content creation
+default_latency_ms: 25.0
+default_reliability: 0.97
+
+# Contractor Type Distribution for Content Creation
+contractor_type_distribution:
+  creative_writer: 0.25        # Creative writing specialists
+  video_creator: 0.20          # Video production specialists
+  social_media: 0.30           # Social media specialists
+  graphic_designer: 0.15       # Graphic design specialists
+  copywriter: 0.10             # Copywriting specialists
+
+# Variation Parameters
+latency_variation_percent: 0.20  # Higher variation for creative work
+cost_variation_percent: 0.15    # More cost variation in creative market
+demand_variation_percent: 0.35  # High demand variation for content
+
+# Output Configuration
+enable_detailed_logging: true
+enable_time_series_tracking: true
+enable_agent_performance_tracking: true
+
+# Random seed for reproducibility
+random_seed: 42

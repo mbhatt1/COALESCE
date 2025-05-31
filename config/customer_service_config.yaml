@@ -1,0 +1,74 @@
+# COALESCE Configuration for Customer Service Scenario
+# Specialized configuration for customer service and support agents
+
+# Simulation Duration and Timing
+simulation_duration_days: 21  # Three weeks of customer service operations
+time_step_seconds: 1800  # 30-minute steps for faster response tracking
+
+# Agent Configuration
+num_client_agents: 15  # Companies needing customer service
+num_contractor_agents: 60  # Specialized customer service contractors
+
+# Task Generation Parameters
+poisson_lambda: 8.2  # High task arrival rate for customer service
+
+# Task type distribution for customer service scenario
+task_type_distribution:
+  customer_support: 0.4           # General customer inquiries
+  technical_troubleshooting: 0.2  # Technical support issues
+  multilingual_support: 0.2       # International customer support
+  chatbot_training: 0.2           # AI chatbot development and training
+
+# Task parameter ranges (adjusted for customer service)
+complexity_factor_range: [0.2, 2.0]  # Range from simple to complex issues
+value_range: [15.0, 250.0]           # Customer service pricing range
+data_size_range_gb: [0.05, 8.0]      # From chat logs to training datasets
+
+# Market Dynamics
+business_hours_multiplier: 4.5  # Customer service peaks during business hours
+quarterly_earnings_multiplier: 1.5  # Moderate seasonal variation
+maintenance_capacity_reduction: 0.1  # Minimal downtime for customer service
+
+# Decision Algorithm Parameters
+skill_compatibility_threshold: 0.8   # High threshold for customer service skills
+topsis_threshold: 0.7               # Higher quality requirements
+min_confidence_threshold: 0.85      # High confidence for customer interactions
+learning_rate: 0.02                 # Fast learning for service quality
+
+# Cost Model Parameters (adjusted for customer service)
+energy_cost_per_kwh: 0.08
+data_transfer_cost_per_gb: 0.05     # Low data costs for customer service
+protocol_overhead_base_cost: 0.2
+integration_base_cost: 0.5
+latency_penalty_per_minute: 0.5     # High latency penalty for customer service
+
+# Security Parameters
+security_overhead_enabled: true
+chacha20_overhead_percent: 0.02     # Moderate security for customer data
+sgx_enclave_overhead_percent: 0.08  # Higher security for sensitive customer info
+
+# Network Parameters
+default_bandwidth_mbps: 200  # Moderate bandwidth for customer service
+default_latency_ms: 10.0     # Low latency requirement
+default_reliability: 0.995   # Very high reliability requirement
+
+# Contractor Type Distribution for Customer Service
+contractor_type_distribution:
+  multilingual_support: 0.25    # Multilingual support specialists
+  technical_support: 0.20       # Technical support specialists
+  ai_chatbot: 0.30              # AI chatbot specialists
+  general_support: 0.15         # General customer support
+  escalation_specialist: 0.10   # Complex issue specialists
+
+# Variation Parameters
+latency_variation_percent: 0.10  # Low variation for consistent service
+cost_variation_percent: 0.08    # Stable pricing for service contracts
+demand_variation_percent: 0.40  # High demand variation throughout day
+
+# Output Configuration
+enable_detailed_logging: true
+enable_time_series_tracking: true
+enable_agent_performance_tracking: true
+
+# Random seed for reproducibility
+random_seed: 123

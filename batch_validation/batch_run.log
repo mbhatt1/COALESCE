@@ -1,0 +1,41 @@
+2025-05-31 11:19:55,762 - INFO - Starting batch run of 20 simulations
+2025-05-31 11:19:55,762 - INFO - Starting simulation run 1
+2025-05-31 11:19:57,105 - INFO - Completed simulation run 1: FAILED
+2025-05-31 11:19:57,105 - INFO - Starting simulation run 2
+2025-05-31 11:19:58,398 - INFO - Completed simulation run 2: FAILED
+2025-05-31 11:19:58,398 - INFO - Starting simulation run 3
+2025-05-31 11:19:59,726 - INFO - Completed simulation run 3: FAILED
+2025-05-31 11:19:59,726 - INFO - Starting simulation run 4
+2025-05-31 11:20:01,034 - INFO - Completed simulation run 4: FAILED
+2025-05-31 11:20:01,035 - INFO - Starting simulation run 5
+2025-05-31 11:20:02,398 - INFO - Completed simulation run 5: FAILED
+2025-05-31 11:20:02,398 - INFO - Starting simulation run 6
+2025-05-31 11:20:03,684 - INFO - Completed simulation run 6: FAILED
+2025-05-31 11:20:03,684 - INFO - Starting simulation run 7
+2025-05-31 11:20:05,105 - INFO - Completed simulation run 7: FAILED
+2025-05-31 11:20:05,105 - INFO - Starting simulation run 8
+2025-05-31 11:20:06,450 - INFO - Completed simulation run 8: FAILED
+2025-05-31 11:20:06,450 - INFO - Starting simulation run 9
+2025-05-31 11:20:07,671 - INFO - Completed simulation run 9: FAILED
+2025-05-31 11:20:07,671 - INFO - Starting simulation run 10
+2025-05-31 11:20:08,979 - INFO - Completed simulation run 10: FAILED
+2025-05-31 11:20:08,979 - INFO - Starting simulation run 11
+2025-05-31 11:20:10,300 - INFO - Completed simulation run 11: FAILED
+2025-05-31 11:20:10,300 - INFO - Starting simulation run 12
+2025-05-31 11:20:11,635 - INFO - Completed simulation run 12: FAILED
+2025-05-31 11:20:11,635 - INFO - Starting simulation run 13
+2025-05-31 11:20:12,972 - INFO - Completed simulation run 13: FAILED
+2025-05-31 11:20:12,973 - INFO - Starting simulation run 14
+2025-05-31 11:20:14,320 - INFO - Completed simulation run 14: FAILED
+2025-05-31 11:20:14,321 - INFO - Starting simulation run 15
+2025-05-31 11:20:15,755 - INFO - Completed simulation run 15: FAILED
+2025-05-31 11:20:15,756 - INFO - Starting simulation run 16
+2025-05-31 11:20:17,091 - INFO - Completed simulation run 16: FAILED
+2025-05-31 11:20:17,092 - INFO - Starting simulation run 17
+2025-05-31 11:20:18,375 - INFO - Completed simulation run 17: FAILED
+2025-05-31 11:20:18,375 - INFO - Starting simulation run 18
+2025-05-31 11:20:19,746 - INFO - Completed simulation run 18: FAILED
+2025-05-31 11:20:19,747 - INFO - Starting simulation run 19
+2025-05-31 11:20:21,061 - INFO - Completed simulation run 19: FAILED
+2025-05-31 11:20:21,061 - INFO - Starting simulation run 20
+2025-05-31 11:20:22,323 - INFO - Completed simulation run 20: FAILED

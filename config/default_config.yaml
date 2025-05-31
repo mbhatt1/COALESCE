@@ -1,0 +1,75 @@
+# COALESCE Simulation Configuration
+# This file contains all configuration parameters for the COALESCE simulation
+
+# Simulation Duration and Timing
+simulation_duration_days: 30  # Number of days to simulate
+time_step_seconds: 3600  # Time step in seconds (3600 = 1 hour)
+
+# Agent Configuration
+num_client_agents: 50  # Number of client agents
+num_contractor_agents: 200  # Number of contractor agents
+
+# Task Generation Parameters
+poisson_lambda: 4.2  # Poisson arrival rate (tasks per minute during peak)
+
+# Task type distribution (must sum to 1.0)
+task_type_distribution:
+  financial_rag: 0.4
+  risk_assessment: 0.3
+  sentiment_analysis: 0.2
+  portfolio_optimization: 0.1
+
+# Task parameter ranges
+complexity_factor_range: [0.5, 2.0]
+value_range: [50.0, 500.0]
+data_size_range_gb: [1.0, 20.0]
+
+# Market Dynamics
+business_hours_multiplier: 3.2  # Demand multiplier during business hours
+quarterly_earnings_multiplier: 2.1  # Seasonal demand increase
+maintenance_capacity_reduction: 0.2  # Capacity reduction during maintenance
+
+# Decision Algorithm Parameters
+skill_compatibility_threshold: 0.7  # θ_skill from paper
+topsis_threshold: 0.6  # τ_threshold from paper
+min_confidence_threshold: 0.8  # ρ_min from paper
+learning_rate: 0.01  # η for weight updates
+
+# Cost Model Parameters
+energy_cost_per_kwh: 0.08  # USD per kWh
+data_transfer_cost_per_gb: 0.12  # USD per GB
+protocol_overhead_base_cost: 0.5  # USD base protocol cost
+integration_base_cost: 1.2  # USD integration cost
+latency_penalty_per_minute: 0.25  # USD penalty per minute
+
+# Security Parameters
+security_overhead_enabled: true
+chacha20_overhead_percent: 0.023  # Encryption overhead
+sgx_enclave_overhead_percent: 0.085  # SGX overhead
+
+# Network Parameters
+default_bandwidth_mbps: 1000
+default_latency_ms: 15.0
+default_reliability: 0.99
+
+# Contractor Type Distribution (must sum to 1.0)
+contractor_type_distribution:
+  contractor_b: 0.152  # Premium GPU Specialist
+  contractor_c: 0.228  # High-Throughput CPU
+  contractor_d: 0.315  # Budget Provider
+  contractor_e: 0.087  # Edge Specialist
+  contractor_f: 0.183  # Hybrid Cloud
+  contractor_g: 0.035  # Quantum-Enhanced
+
+# Variation Parameters (for realistic simulation)
+latency_variation_percent: 0.15  # ±15% latency variation
+cost_variation_percent: 0.1  # ±10% cost variation
+demand_variation_percent: 0.25  # ±25% demand variation
+
+# Output Configuration
+enable_detailed_logging: true
+enable_time_series_tracking: true
+enable_agent_performance_tracking: true
+
+# Random seed for reproducibility (null for random)
+random_seed: null

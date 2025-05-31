@@ -1,0 +1,23 @@
+{
+  "simulation_metadata": {
+    "duration_days": 10,
+    "total_tasks": 781,
+    "client_agents": 25,
+    "contractor_agents": 50,
+    "generated_at": "2025-05-31T11:21:08.583158"
+  },
+  "cost_performance": {
+    "average_cost_reduction_percent": 23.885834795385357,
+    "total_cost_savings_usd": 19471.009601661914
+  },
+  "time_performance": {
+    "average_time_savings_percent": 24.230073589646064,
+    "total_time_savings_minutes": 19300.13563724185,
+    "throughput_tasks_per_hour": 3.254166666666667
+  },
+  "decision_quality": {
+    "outsourcing_rate": 0.17797695262483995,
+    "average_topsis_score": 0.7325965600014591,
+    "average_confidence": 0.918925442047383
+  }
+}
