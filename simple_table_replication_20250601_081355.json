@@ -1,0 +1,132 @@
+{
+  "dur_01": {
+    "config": "1d, 15a, 30c",
+    "cost_mean": 27.055555555555557,
+    "cost_std": 10.224895927686802,
+    "time_mean": 33.0,
+    "time_std": 9.721837153905573,
+    "outsourcing_rate": 33.0,
+    "topsis_score": 0.8,
+    "runs": 18
+  },
+  "dur_02": {
+    "config": "3d, 15a, 30c",
+    "cost_mean": 35.15555555555556,
+    "cost_std": 10.739165386686919,
+    "time_mean": 42.65555555555555,
+    "time_std": 5.954950705799061,
+    "outsourcing_rate": 33.0,
+    "topsis_score": 0.8,
+    "runs": 18
+  },
+  "dur_03": {
+    "config": "5d, 15a, 30c",
+    "cost_mean": 40.53888888888889,
+    "cost_std": 5.721696466740991,
+    "time_mean": 46.233333333333334,
+    "time_std": 5.0635955604688645,
+    "outsourcing_rate": 33.0,
+    "topsis_score": 0.8,
+    "runs": 18
+  },
+  "dur_04": {
+    "config": "7d, 15a, 30c",
+    "cost_mean": 41.26111111111111,
+    "cost_std": 22.968677876592995,
+    "time_mean": 41.205555555555556,
+    "time_std": 5.32789244528235,
+    "outsourcing_rate": 33.0,
+    "topsis_score": 0.8,
+    "runs": 18
+  },
+  "dur_05": {
+    "config": "10d, 15a, 30c",
+    "cost_mean": 38.026315789473685,
+    "cost_std": 3.1410971376368115,
+    "time_mean": 44.06842105263158,
+    "time_std": 3.059058067005257,
+    "outsourcing_rate": 33.0,
+    "topsis_score": 0.8,
+    "runs": 19
+  },
+  "agt_01": {
+    "config": "7d, 5a, 10c",
+    "cost_mean": 70.88823529411765,
+    "cost_std": 26.2226972857709,
+    "time_mean": 53.48235294117647,
+    "time_std": 14.105284262206384,
+    "outsourcing_rate": 33.0,
+    "topsis_score": 0.8,
+    "runs": 17
+  },
+  "agt_02": {
+    "config": "7d, 10a, 20c",
+    "cost_mean": 59.68888888888889,
+    "cost_std": 48.27289933759434,
+    "time_mean": 42.9,
+    "time_std": 4.56585795043269,
+    "outsourcing_rate": 33.0,
+    "topsis_score": 0.8,
+    "runs": 18
+  },
+  "agt_03": {
+    "config": "7d, 15a, 30c",
+    "cost_mean": 40.85,
+    "cost_std": 12.613088440187834,
+    "time_mean": 44.875,
+    "time_std": 6.5709788584270115,
+    "outsourcing_rate": 33.0,
+    "topsis_score": 0.8,
+    "runs": 20
+  },
+  "agt_04": {
+    "config": "7d, 20a, 40c",
+    "cost_mean": 38.28947368421053,
+    "cost_std": 4.77852775291513,
+    "time_mean": 43.7,
+    "time_std": 5.959492894161008,
+    "outsourcing_rate": 33.0,
+    "topsis_score": 0.8,
+    "runs": 19
+  },
+  "agt_05": {
+    "config": "7d, 25a, 50c",
+    "cost_mean": 39.37777777777778,
+    "cost_std": 8.219242526682022,
+    "time_mean": 44.26111111111111,
+    "time_std": 8.89356270098434,
+    "outsourcing_rate": 33.0,
+    "topsis_score": 0.8,
+    "runs": 18
+  },
+  "agt_06": {
+    "config": "7d, 30a, 60c",
+    "cost_mean": 38.52105263157895,
+    "cost_std": 2.5680902864382027,
+    "time_mean": 43.46842105263158,
+    "time_std": 1.66033886487031,
+    "outsourcing_rate": 33.0,
+    "topsis_score": 0.8,
+    "runs": 19
+  },
+  "agt_07": {
+    "config": "7d, 40a, 80c",
+    "cost_mean": 37.43333333333333,
+    "cost_std": 3.7913213589801145,
+    "time_mean": 42.53888888888889,
+    "time_std": 3.0395701880536623,
+    "outsourcing_rate": 33.0,
+    "topsis_score": 0.8,
+    "runs": 18
+  },
+  "agt_08": {
+    "config": "7d, 50a, 100c",
+    "cost_mean": 38.2,
+    "cost_std": 4.305293898859352,
+    "time_mean": 43.42631578947368,
+    "time_std": 3.573644592361503,
+    "outsourcing_rate": 33.0,
+    "topsis_score": 0.8,
+    "runs": 19
+  }
+}

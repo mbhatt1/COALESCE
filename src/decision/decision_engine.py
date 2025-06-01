@@ -61,6 +61,7 @@ class DecisionEngine:
         
         # Epsilon-greedy exploration parameters
         self.exploration_rate = 0.1  # 10% exploration rate
+        self.force_exploration = False  # Flag to force exploration for testing
         
         # Dynamic weight learning parameters
         self.learning_rate = 0.01   # η from Eq. (11)
@@ -105,7 +106,8 @@ class DecisionEngine:
                 ])
         
         # Epsilon-greedy exploration: Try random contractor even if no eligible candidates
-        if random.random() < self.exploration_rate and candidates:
+        should_explore = (random.random() < self.exploration_rate) or self.force_exploration
+        if should_explore and candidates:
             # EXPLORATION: Select a random contractor to learn from
             exploration_contractor = random.choice(candidates)
             external_cost = self.cost_calculator.calculate_external_cost(exploration_contractor, task, client)

@@ -79,19 +79,18 @@ def main():
     
     logger.info("Starting comprehensive COALESCE analysis with 20 runs per experiment...")
     
-    # Full experiment configurations
+    # Exact configurations from paper table
     duration_configs = [
-        (1, 15, 30), (3, 15, 30), (5, 15, 30), (7, 15, 30), (10, 15, 30),
-        (15, 15, 30), (20, 15, 30), (25, 15, 30), (30, 15, 30)
+        (1, 15, 30), (3, 15, 30), (5, 15, 30), (7, 15, 30), (10, 15, 30)
     ]
     
     agent_configs = [
-        (7, 5, 10), (7, 10, 20), (7, 15, 30), (7, 20, 40), 
+        (7, 5, 10), (7, 10, 20), (7, 15, 30), (7, 20, 40),
         (7, 25, 50), (7, 30, 60), (7, 40, 80), (7, 50, 100)
     ]
     
     all_results = []
-    total_experiments = len(duration_configs) + len(agent_configs)
+    total_experiments = len(duration_configs) + len(agent_configs)  # 5 + 8 = 13 experiments
     experiment_count = 0
     
     # Duration experiments
