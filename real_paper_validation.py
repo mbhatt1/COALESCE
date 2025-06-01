@@ -246,7 +246,7 @@ class RealPaperValidation:
                 api_key=openai_key,
                 model_type="openai",
                 specialization="gpu_specialist",
-                base_price_per_task=25.0,
+                base_price_per_task=2.0,  # Much more competitive pricing
                 reliability_score=0.95,
                 avg_latency_minutes=15.0,
                 security_risk_score=0.05,
@@ -273,7 +273,7 @@ class RealPaperValidation:
                 api_key=anthropic_key,
                 model_type="anthropic",
                 specialization="hybrid_cloud",
-                base_price_per_task=20.0,
+                base_price_per_task=1.5,  # More competitive pricing
                 reliability_score=0.92,
                 avg_latency_minutes=18.0,
                 security_risk_score=0.06,
@@ -300,7 +300,7 @@ class RealPaperValidation:
                 api_key="demo-key-budget",
                 model_type="budget",
                 specialization="budget_provider",
-                base_price_per_task=10.0,
+                base_price_per_task=0.8,  # Very competitive budget pricing
                 reliability_score=0.85,
                 avg_latency_minutes=45.0,
                 security_risk_score=0.12,
@@ -342,8 +342,8 @@ class RealPaperValidation:
                 utilization_factor=0.75,
                 tdp_watts=320,
                 purchase_cost=12000,
-                compute_cost_per_hour=0.45,
-                memory_cost_per_hour=0.15
+                compute_cost_per_hour=0.45,  # Reverted to original cheap local costs
+                memory_cost_per_hour=0.15    # Reverted to original cheap local costs
             )
         )
     

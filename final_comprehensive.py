@@ -21,15 +21,15 @@ def run_single_experiment(duration: int, agents: int, contractors: int, run_id: 
     """Run a single experiment and extract results."""
     
     cmd = [
-        sys.executable, "COALESCE/main.py",
+        sys.executable, "main.py",
         "--duration", str(duration),
         "--agents", str(agents),
         "--contractors", str(contractors),
-        "--config", "COALESCE/config/content_creation_config.yaml"
+        "--config", "config/default_config.yaml"
     ]
     
     try:
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=120, cwd="COALESCE")
         
         if result.returncode != 0:
             return None
@@ -48,7 +48,7 @@ def run_single_experiment(duration: int, agents: int, contractors: int, run_id: 
         
         # Read executive summary for additional metrics
         try:
-            with open("output/reports/executive_summary.md", 'r') as f:
+            with open("COALESCE/output/reports/executive_summary.md", 'r') as f:
                 summary = f.read()
                 
             for line in summary.split('\n'):

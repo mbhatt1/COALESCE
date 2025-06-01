@@ -1,30 +1,30 @@
 # COALESCE Simulation Executive Summary
 
-**Generated:** 2025-05-31 23:33:40  
+**Generated:** 2025-06-01 07:52:27  
 **Simulation Duration:** 7 days  
-**Total Tasks Processed:** 550
+**Total Tasks Processed:** 533
 
 ## Key Performance Indicators
 
 ### Cost Optimization
-- **Average Cost Reduction:** 37.5%
-- **Total Cost Savings:** $18,085.36
+- **Average Cost Reduction:** 33.0%
+- **Total Cost Savings:** $16,037.38
 
 ### Performance Improvements
-- **Average Time Savings:** 47.5%
-- **System Throughput:** 3.3 tasks/hour
+- **Average Time Savings:** 39.8%
+- **System Throughput:** 3.2 tasks/hour
 
 ### Decision Quality
-- **Outsourcing Rate:** 33.3%
-- **Average TOPSIS Score:** 0.796
-- **Average Decision Confidence:** 0.841
+- **Outsourcing Rate:** 32.5%
+- **Average TOPSIS Score:** 0.790
+- **Average Decision Confidence:** 0.843
 
 ## Market Analysis
 
 ### Task Distribution
-- **Total Tasks:** 550
-- **Outsourced Tasks:** 183 (33.3%)
-- **Local Tasks:** 367 (66.7%)
+- **Total Tasks:** 533
+- **Outsourced Tasks:** 173 (32.5%)
+- **Local Tasks:** 360 (67.5%)
 
 ## Key Findings
 
