@@ -27,9 +27,9 @@ class SimulationConfig:
     # Task generation parameters
     poisson_lambda: float = DEFAULT_POISSON_LAMBDA
     task_type_distribution: Dict[str, float] = None
-    complexity_factor_range: tuple = COMPLEXITY_FACTOR_RANGE
-    value_range: tuple = VALUE_RANGE
-    data_size_range_gb: tuple = DATA_SIZE_RANGE_GB
+    complexity_factor_range: tuple = None
+    value_range: tuple = None
+    data_size_range_gb: tuple = None
     
     # Market dynamics
     business_hours_multiplier: float = BUSINESS_HOURS_MULTIPLIER
@@ -82,6 +82,15 @@ class SimulationConfig:
         
         if self.contractor_type_distribution is None:
             self.contractor_type_distribution = CONTRACTOR_TYPE_DISTRIBUTION.copy()
+            
+        if self.complexity_factor_range is None:
+            self.complexity_factor_range = COMPLEXITY_FACTOR_RANGE
+            
+        if self.value_range is None:
+            self.value_range = VALUE_RANGE
+            
+        if self.data_size_range_gb is None:
+            self.data_size_range_gb = DATA_SIZE_RANGE_GB
     
     @classmethod
     def from_file(cls, config_path: str) -> 'SimulationConfig':

@@ -21,11 +21,11 @@ def run_single_experiment(duration: int, agents: int, contractors: int, run_id: 
     """Run a single experiment and extract results."""
     
     cmd = [
-        sys.executable, "main.py",
+        sys.executable, "COALESCE/main.py",
         "--duration", str(duration),
         "--agents", str(agents),
         "--contractors", str(contractors),
-        "--config", "config/content_creation_config.yaml"
+        "--config", "COALESCE/config/content_creation_config.yaml"
     ]
     
     try:

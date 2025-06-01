@@ -1,0 +1,722 @@
+{
+  "validation_type": "REAL_PAPER_IMPLEMENTATION",
+  "total_tasks": 35,
+  "successful_tasks": 35,
+  "success_rate": 1.0,
+  "avg_cost_savings_percent": 11.381514069138708,
+  "avg_time_savings_percent": 9.034285714285716,
+  "outsourcing_rate_percent": 5.714285714285714,
+  "avg_topsis_score": 0.5,
+  "paper_comparison": {
+    "paper_cost_reduction_mean": 43.5,
+    "validation_cost_reduction": 11.381514069138708,
+    "paper_time_savings_mean": 44.4,
+    "validation_time_savings": 9.034285714285716,
+    "paper_outsourcing_rate": 33.8,
+    "validation_outsourcing_rate": 5.714285714285714,
+    "paper_topsis_mean": 0.79,
+    "validation_topsis": 0.5
+  },
+  "detailed_results": [
+    {
+      "task_id": "50447302-4c1f-4001-8f60-1846ac5ffc19",
+      "task_type": "financial_rag",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 2.0144879817962648e-05,
+      "execution_time": 0.16115903854370117,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 94.45673873080705,
+        "reliability": 0.95,
+        "latency": 100.32000000000001,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "6223f843-835f-4aa6-bd48-cd1256761625",
+      "task_type": "financial_rag",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 2.4888604879379274e-05,
+      "execution_time": 0.19910883903503418,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 112.91324472048169,
+        "reliability": 0.95,
+        "latency": 112.86000000000001,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "6376a7f9-6667-4ff9-b0d4-b7ce89f1fd9b",
+      "task_type": "financial_rag",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 3.0160993337631228e-05,
+      "execution_time": 0.2412879467010498,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 132.86909828381704,
+        "reliability": 0.95,
+        "latency": 125.4,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "245636ae-a266-4f43-b900-7ac0744a4d4e",
+      "task_type": "financial_rag",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 3.58942449092865e-05,
+      "execution_time": 0.287153959274292,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 154.33080944968975,
+        "reliability": 0.95,
+        "latency": 137.94000000000003,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "e7327cd1-ee79-4206-bd5c-973aa305b5f7",
+      "task_type": "financial_rag",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 4.2172729969024655e-05,
+      "execution_time": 0.33738183975219727,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 177.30488824697642,
+        "reliability": 0.95,
+        "latency": 150.48000000000002,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "8edc2c2a-4ea5-4fa1-85f1-fad35ce2ca11",
+      "task_type": "financial_rag",
+      "decision": "OUTSOURCE",
+      "selected_agent": "Budget-Cloud-Real",
+      "topsis_score": 0.5,
+      "confidence": 0.7,
+      "cost_savings": 140.72484470455368,
+      "time_savings": 118.02000000000001,
+      "actual_cost": 10.0,
+      "execution_time": 0.10253119468688965,
+      "exploration": true,
+      "criteria_scores": {
+        "cost": 61.07300000000001,
+        "reliability": 0.85,
+        "latency": 45.0,
+        "security": 0.88,
+        "skill_compatibility": 0.46
+      }
+    },
+    {
+      "task_id": "ec5c5016-cad4-4168-b27c-e14bed31fd7d",
+      "task_type": "financial_rag",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 5.6163877248764046e-05,
+      "execution_time": 0.4493110179901123,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 227.8161888512982,
+        "reliability": 0.95,
+        "latency": 175.56000000000003,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "a1f2d5f8-5d70-4cd6-9a8a-39e5ea873f3b",
+      "task_type": "financial_rag",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 6.391048431396484e-05,
+      "execution_time": 0.5112838745117188,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 255.36643071608643,
+        "reliability": 0.95,
+        "latency": 188.10000000000002,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "f15afc57-8d14-4c4a-931c-6941f4d10486",
+      "task_type": "financial_rag",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 7.219120860099793e-05,
+      "execution_time": 0.5775296688079834,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 284.45508032779526,
+        "reliability": 0.95,
+        "latency": 200.64000000000001,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "437077fe-c3ef-45f5-91a3-eb4220ec908b",
+      "task_type": "financial_rag",
+      "decision": "OUTSOURCE",
+      "selected_agent": "GPT-4-Real",
+      "topsis_score": 0.5,
+      "confidence": 0.7,
+      "cost_savings": 257.6281477153011,
+      "time_savings": 198.18000000000004,
+      "actual_cost": 0.02478,
+      "execution_time": 10.549555778503418,
+      "exploration": true,
+      "criteria_scores": {
+        "cost": 57.46050000000001,
+        "reliability": 0.95,
+        "latency": 15.0,
+        "security": 0.95,
+        "skill_compatibility": 0.635
+      }
+    },
+    {
+      "task_id": "dfb34338-fd38-46af-beca-403ef611330e",
+      "task_type": "financial_rag",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 9.021088480949403e-05,
+      "execution_time": 0.7216870784759521,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 347.27364290748085,
+        "reliability": 0.95,
+        "latency": 225.72000000000003,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "eebefc04-32bd-4b09-9920-290c715f1906",
+      "task_type": "financial_rag",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 9.993737936019898e-05,
+      "execution_time": 0.7994990348815918,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 381.0165759332109,
+        "reliability": 0.95,
+        "latency": 238.26000000000002,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "bb4e4028-2cf7-4432-ad02-5ea102c86717",
+      "task_type": "financial_rag",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 0.0001101796329021454,
+      "execution_time": 0.8814370632171631,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 416.3239568213678,
+        "reliability": 0.95,
+        "latency": 250.8,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "661a60fb-eb5c-408b-b058-d786138f05d5",
+      "task_type": "financial_rag",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 0.00012095284461975099,
+      "execution_time": 0.9676227569580078,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 453.2022956008284,
+        "reliability": 0.95,
+        "latency": 263.34000000000003,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "7f09d87a-3b9f-43cb-8edc-5e272325821c",
+      "task_type": "financial_rag",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 0.00012511849403381347,
+      "execution_time": 1.0009479522705078,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 491.65810230046935,
+        "reliability": 0.95,
+        "latency": 275.88000000000005,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "ccc81c9a-e36a-4d50-974f-bb1f28f77338",
+      "task_type": "risk_assessment",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 1.8914639949798583e-05,
+      "execution_time": 0.15131711959838867,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 31.52128223492703,
+        "reliability": 0.95,
+        "latency": 90.0,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "682e8f19-7b4e-48ab-b98b-da861e7f08f1",
+      "task_type": "risk_assessment",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 2.3893505334854128e-05,
+      "execution_time": 0.191148042678833,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 38.95481563329978,
+        "reliability": 0.95,
+        "latency": 103.49999999999999,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "2dee0551-735f-430d-9f23-ed5207d4cf09",
+      "task_type": "risk_assessment",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 2.941799163818359e-05,
+      "execution_time": 0.23534393310546875,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 47.10225096477589,
+        "reliability": 0.95,
+        "latency": 117.0,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "c37b2146-b273-4ea7-bd2d-246bf162c781",
+      "task_type": "risk_assessment",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 3.553286194801331e-05,
+      "execution_time": 0.28426289558410645,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 55.96641311688576,
+        "reliability": 0.95,
+        "latency": 130.5,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "e4d6fcd2-e83e-4954-88ea-e3f997830b32",
+      "task_type": "risk_assessment",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 4.215601086616517e-05,
+      "execution_time": 0.3372480869293213,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 65.55012697715976,
+        "reliability": 0.95,
+        "latency": 144.0,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "8a72dac8-f493-4f9f-91a2-ee7b38cc75c0",
+      "task_type": "risk_assessment",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 4.939290881156922e-05,
+      "execution_time": 0.3951432704925537,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 75.85621743312834,
+        "reliability": 0.95,
+        "latency": 157.5,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "4ced2fc2-7dce-434a-8a14-b97755d5eded",
+      "task_type": "risk_assessment",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 5.71570098400116e-05,
+      "execution_time": 0.4572560787200928,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 86.8875093723218,
+        "reliability": 0.95,
+        "latency": 171.0,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "6e63fc19-0a5f-4215-b55a-eab3ffd0b070",
+      "task_type": "risk_assessment",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 6.552323698997497e-05,
+      "execution_time": 0.5241858959197998,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 98.64682768227064,
+        "reliability": 0.95,
+        "latency": 184.49999999999997,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "334acf93-8a33-4896-8e2b-d04f717656ee",
+      "task_type": "risk_assessment",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 7.44352638721466e-05,
+      "execution_time": 0.5954821109771729,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 111.13699725050519,
+        "reliability": 0.95,
+        "latency": 198.00000000000003,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "3ad7d9fb-2a8f-4760-9183-c4616110acf3",
+      "task_type": "risk_assessment",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 8.391898870468139e-05,
+      "execution_time": 0.6713519096374512,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 124.36084296455583,
+        "reliability": 0.95,
+        "latency": 211.49999999999997,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "15d3258c-8b1f-4a0e-bf82-c0ae430dcbec",
+      "task_type": "portfolio_optimization",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 4.507765173912048e-05,
+      "execution_time": 0.36062121391296387,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 38.07540313087901,
+        "reliability": 0.95,
+        "latency": 216.0,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "96d085e4-bdc7-48a2-974a-43ca2a19244e",
+      "task_type": "portfolio_optimization",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 5.380085110664368e-05,
+      "execution_time": 0.4304068088531494,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 45.40891886945285,
+        "reliability": 0.95,
+        "latency": 234.0,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "fdc3b1e7-3f12-4664-8f71-c0326b7e4524",
+      "task_type": "portfolio_optimization",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 6.318637728691101e-05,
+      "execution_time": 0.5054910182952881,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 53.38951771562362,
+        "reliability": 0.95,
+        "latency": 251.99999999999997,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "8148ef46-b8a2-424e-bfc1-ac5e5db6a016",
+      "task_type": "portfolio_optimization",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 7.334977388381958e-05,
+      "execution_time": 0.5867981910705566,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 62.01869883604121,
+        "reliability": 0.95,
+        "latency": 270.0,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "ff13e45d-ffe8-4e2c-b8ee-0e24c163e30a",
+      "task_type": "portfolio_optimization",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 8.420848846435548e-05,
+      "execution_time": 0.6736679077148438,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 71.29796139735546,
+        "reliability": 0.95,
+        "latency": 288.0,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "63146577-d5ed-498f-93c2-66b552e61bff",
+      "task_type": "portfolio_optimization",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 9.579873085021973e-05,
+      "execution_time": 0.7663898468017578,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 81.22880456621633,
+        "reliability": 0.95,
+        "latency": 306.0,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "a5c8c7a1-2bfd-47e8-875e-339572f415c2",
+      "task_type": "portfolio_optimization",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 0.00010809066891670228,
+      "execution_time": 0.8647253513336182,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 91.8127275092736,
+        "reliability": 0.95,
+        "latency": 324.0,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "daee0e41-2fa1-4a61-bbbd-bebf74ff0028",
+      "task_type": "portfolio_optimization",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 0.00012136152386665345,
+      "execution_time": 0.9708921909332275,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 103.0512293931772,
+        "reliability": 0.95,
+        "latency": 342.0,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "d2026833-bb3d-495d-b6de-426123741138",
+      "task_type": "portfolio_optimization",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 0.00012521666288375853,
+      "execution_time": 1.0017333030700684,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 114.945809384577,
+        "reliability": 0.95,
+        "latency": 360.0,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    },
+    {
+      "task_id": "f530e283-1a5b-47eb-a1d6-a93bda1f9fbf",
+      "task_type": "portfolio_optimization",
+      "decision": "LOCAL",
+      "selected_agent": "Local-Real",
+      "topsis_score": 0.0,
+      "confidence": 1.0,
+      "cost_savings": 0.0,
+      "time_savings": 0.0,
+      "actual_cost": 0.00012516728043556214,
+      "execution_time": 1.001338243484497,
+      "exploration": false,
+      "criteria_scores": {
+        "cost": 127.49796665012283,
+        "reliability": 0.95,
+        "latency": 378.0,
+        "security": 0.98,
+        "skill_compatibility": 1.0
+      }
+    }
+  ]
+}
