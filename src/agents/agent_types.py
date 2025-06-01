@@ -256,7 +256,7 @@ def create_contractor_from_paper_spec(agent_type: str) -> ContractorAgent:
             "reliability": 0.987,
             "market_share": 15.2,
             "topsis_score": 0.923,
-            "skills": {"FinBERT", "Custom RAG", "Financial Analysis", "GPU Computing"}
+            "skills": {"FinBERT", "RAG", "Financial Analysis", "GPU Computing"}
         },
         "contractor_c": {
             "name": "High-Throughput CPU",
@@ -266,7 +266,7 @@ def create_contractor_from_paper_spec(agent_type: str) -> ContractorAgent:
             "reliability": 0.912,
             "market_share": 22.8,
             "topsis_score": 0.756,
-            "skills": {"Parallel Processing", "Ray", "Dask", "CPU Optimization"}
+            "skills": {"Risk Modeling", "Statistics", "Parallel Processing", "CPU Optimization"}
         },
         "contractor_d": {
             "name": "Budget Provider",
@@ -276,7 +276,7 @@ def create_contractor_from_paper_spec(agent_type: str) -> ContractorAgent:
             "reliability": 0.743,
             "market_share": 31.5,
             "topsis_score": 0.612,
-            "skills": {"General NLP", "Basic RAG", "Cost Optimization"}
+            "skills": {"FinBERT", "RAG", "Financial Analysis", "Cost Optimization"}
         },
         "contractor_e": {
             "name": "Edge Specialist",
@@ -286,7 +286,7 @@ def create_contractor_from_paper_spec(agent_type: str) -> ContractorAgent:
             "reliability": 0.856,
             "market_share": 8.7,
             "topsis_score": 0.445,
-            "skills": {"Mobile Deployment", "Edge Computing", "Low Latency"}
+            "skills": {"NLP", "Text Processing", "Edge Computing", "Low Latency"}
         },
         "contractor_f": {
             "name": "Hybrid Cloud",
@@ -296,7 +296,7 @@ def create_contractor_from_paper_spec(agent_type: str) -> ContractorAgent:
             "reliability": 0.945,
             "market_share": 18.3,
             "topsis_score": 0.834,
-            "skills": {"Auto-scaling", "Multi-region", "Cloud Native", "AWS"}
+            "skills": {"FinBERT", "RAG", "Risk Modeling", "Cloud Native"}
         },
         "contractor_g": {
             "name": "Quantum-Enhanced",
@@ -306,7 +306,7 @@ def create_contractor_from_paper_spec(agent_type: str) -> ContractorAgent:
             "reliability": 0.892,
             "market_share": 3.5,
             "topsis_score": 0.567,
-            "skills": {"Quantum ML", "IBM Quantum", "Research", "Advanced Analytics"}
+            "skills": {"Risk Modeling", "Monte Carlo", "Statistics", "Advanced Analytics"}
         }
     }
     

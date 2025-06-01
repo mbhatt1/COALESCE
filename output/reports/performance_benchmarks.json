@@ -1,23 +1,23 @@
 {
   "simulation_metadata": {
-    "duration_days": 30,
-    "total_tasks": 2358,
+    "duration_days": 7,
+    "total_tasks": 550,
     "client_agents": 50,
-    "contractor_agents": 200,
-    "generated_at": "2025-05-31T22:49:00.886067"
+    "contractor_agents": 100,
+    "generated_at": "2025-05-31T23:33:40.317342"
   },
   "cost_performance": {
-    "average_cost_reduction_percent": 32.21173723743986,
-    "total_cost_savings_usd": 72674.81319937448
+    "average_cost_reduction_percent": 37.46690906128821,
+    "total_cost_savings_usd": 18085.359336378573
   },
   "time_performance": {
-    "average_time_savings_percent": 34.16282581860585,
-    "total_time_savings_minutes": 74756.66904710777,
-    "throughput_tasks_per_hour": 3.275
+    "average_time_savings_percent": 47.49431980580627,
+    "total_time_savings_minutes": 22000.020219686685,
+    "throughput_tasks_per_hour": 3.2738095238095237
   },
   "decision_quality": {
-    "outsourcing_rate": 0.25148430873621713,
-    "average_topsis_score": 0.6699191494281848,
-    "average_confidence": 0.896411000364622
+    "outsourcing_rate": 0.3327272727272727,
+    "average_topsis_score": 0.7959200852511822,
+    "average_confidence": 0.84106290759528
   }
 }
