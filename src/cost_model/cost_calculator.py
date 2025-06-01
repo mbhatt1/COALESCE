@@ -64,13 +64,20 @@ class CostCalculator:
         
         # Compute Cost (Eq. 2): Based on FLOPS estimation
         flops_required = self._estimate_flops(task)
-        execution_time_hours = flops_required / (agent.hardware.peak_flops * agent.hardware.utilization_factor)
+        peak_performance = agent.hardware.peak_flops * agent.hardware.utilization_factor
+        if peak_performance > 0:
+            execution_time_hours = flops_required / peak_performance
+        else:
+            execution_time_hours = 1.0  # Default fallback
         components.compute_cost = execution_time_hours * agent.hardware.compute_cost_per_hour
         
         # Memory Cost (Eq. 3): VRAM and system memory utilization
         memory_usage = self._calculate_memory_usage(task, agent)
-        memory_utilization = memory_usage / agent.hardware.total_memory_gb
-        components.memory_cost = (memory_utilization * execution_time_hours * 
+        if agent.hardware.total_memory_gb > 0:
+            memory_utilization = memory_usage / agent.hardware.total_memory_gb
+        else:
+            memory_utilization = 1.0  # Default fallback
+        components.memory_cost = (memory_utilization * execution_time_hours *
                                 agent.hardware.memory_cost_per_hour)
         
         # Energy Cost (Eq. 4): Power consumption
@@ -152,7 +159,7 @@ class CostCalculator:
         
         # Find maximum value rate from pending tasks
         max_value_rate = max(
-            task.value / task.estimated_duration_hours 
+            task.value / max(task.estimated_duration_hours, 0.1)  # Prevent division by zero
             for task in agent.task_queue
         )
         
@@ -176,7 +183,10 @@ class CostCalculator:
         
         # Supply-demand adjustment
         demand_factor = contractor.current_demand
-        supply_factor = contractor.available_capacity / contractor.total_capacity
+        if contractor.total_capacity > 0:
+            supply_factor = contractor.available_capacity / contractor.total_capacity
+        else:
+            supply_factor = 0.5  # Default fallback
         alpha = 0.5  # Demand sensitivity factor
         
         demand_multiplier = 1 + alpha * (demand_factor - supply_factor)

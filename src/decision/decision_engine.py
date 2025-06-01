@@ -373,7 +373,10 @@ class DecisionEngine:
         
         # Calculate confidence interval (95% confidence, z = 1.96)
         z_alpha_2 = 1.96
-        confidence = 1 - (2 * min(p, 1-p) / np.sqrt(n)) * z_alpha_2
+        if n > 0:
+            confidence = 1 - (2 * min(p, 1-p) / np.sqrt(n)) * z_alpha_2
+        else:
+            confidence = 0.8  # Default confidence for no data
         
         return min(1.0, max(0.0, confidence))
     
@@ -408,7 +411,7 @@ class DecisionEngine:
                 self.weights += self.learning_rate * np.random.normal(0, 0.1, len(self.weights))
                 self.weights = np.abs(self.weights)  # Ensure positive weights
                 weight_sum = np.sum(self.weights)
-                if weight_sum > 0:  # Prevent division by zero
+                if weight_sum > 1e-10:  # Prevent division by zero with small epsilon
                     self.weights /= weight_sum  # Normalize
                 else:
                     # Reset to default weights if all become zero
