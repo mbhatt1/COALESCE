@@ -1,0 +1,51 @@
+business_hours_multiplier: 3.2
+chacha20_overhead_percent: 0.023
+complexity_factor_range:
+- 0.5
+- 2.0
+contractor_type_distribution:
+  contractor_b: 0.152
+  contractor_c: 0.228
+  contractor_d: 0.315
+  contractor_e: 0.087
+  contractor_f: 0.183
+  contractor_g: 0.035
+cost_variation_percent: 0.1
+data_size_range_gb:
+- 1.0
+- 20.0
+data_transfer_cost_per_gb: 0.12
+default_bandwidth_mbps: 1000
+default_latency_ms: 15.0
+default_reliability: 0.99
+demand_variation_percent: 0.25
+enable_agent_performance_tracking: true
+enable_detailed_logging: true
+enable_time_series_tracking: true
+energy_cost_per_kwh: 0.08
+integration_base_cost: 1.2
+latency_penalty_per_minute: 0.25
+latency_variation_percent: 0.15
+learning_rate: 0.01
+maintenance_capacity_reduction: 0.2
+min_confidence_threshold: 0.8
+num_client_agents: 50
+num_contractor_agents: 200
+poisson_lambda: 4.2
+protocol_overhead_base_cost: 0.5
+quarterly_earnings_multiplier: 2.1
+random_seed: 420
+security_overhead_enabled: true
+sgx_enclave_overhead_percent: 0.085
+simulation_duration_days: 30
+skill_compatibility_threshold: 0.7
+task_type_distribution:
+  financial_rag: 0.4
+  portfolio_optimization: 0.1
+  risk_assessment: 0.3
+  sentiment_analysis: 0.2
+time_step_seconds: 3600
+topsis_threshold: 0.6
+value_range:
+- 50.0
+- 500.0

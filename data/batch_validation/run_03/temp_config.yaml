@@ -1,0 +1,50 @@
+business_hours_multiplier: 4.5
+chacha20_overhead_percent: 0.02
+complexity_factor_range:
+- 0.2
+- 2.0
+contractor_type_distribution:
+  ai_chatbot: 0.3
+  escalation_specialist: 0.1
+  general_support: 0.15
+  multilingual_support: 0.25
+  technical_support: 0.2
+cost_variation_percent: 0.08
+data_size_range_gb:
+- 0.05
+- 8.0
+data_transfer_cost_per_gb: 0.05
+default_bandwidth_mbps: 200
+default_latency_ms: 10.0
+default_reliability: 0.995
+demand_variation_percent: 0.4
+enable_agent_performance_tracking: true
+enable_detailed_logging: true
+enable_time_series_tracking: true
+energy_cost_per_kwh: 0.08
+integration_base_cost: 0.5
+latency_penalty_per_minute: 0.5
+latency_variation_percent: 0.1
+learning_rate: 0.02
+maintenance_capacity_reduction: 0.1
+min_confidence_threshold: 0.85
+num_client_agents: 15
+num_contractor_agents: 60
+poisson_lambda: 8.2
+protocol_overhead_base_cost: 0.2
+quarterly_earnings_multiplier: 1.5
+random_seed: 126
+security_overhead_enabled: true
+sgx_enclave_overhead_percent: 0.08
+simulation_duration_days: 21
+skill_compatibility_threshold: 0.8
+task_type_distribution:
+  chatbot_training: 0.2
+  customer_support: 0.4
+  multilingual_support: 0.2
+  technical_troubleshooting: 0.2
+time_step_seconds: 1800
+topsis_threshold: 0.7
+value_range:
+- 15.0
+- 250.0

@@ -1,0 +1,122 @@
+[
+  {
+    "run_id": 1,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_01/temp_config.yaml config/default_config.yaml\n",
+    "output_dir": "batch_validation/run_01"
+  },
+  {
+    "run_id": 2,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_02/temp_config.yaml config/content_creation_config.yaml\n",
+    "output_dir": "batch_validation/run_02"
+  },
+  {
+    "run_id": 3,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_03/temp_config.yaml config/customer_service_config.yaml\n",
+    "output_dir": "batch_validation/run_03"
+  },
+  {
+    "run_id": 4,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_04/temp_config.yaml config/default_config.yaml\n",
+    "output_dir": "batch_validation/run_04"
+  },
+  {
+    "run_id": 5,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_05/temp_config.yaml config/content_creation_config.yaml\n",
+    "output_dir": "batch_validation/run_05"
+  },
+  {
+    "run_id": 6,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_06/temp_config.yaml config/customer_service_config.yaml\n",
+    "output_dir": "batch_validation/run_06"
+  },
+  {
+    "run_id": 7,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_07/temp_config.yaml config/default_config.yaml\n",
+    "output_dir": "batch_validation/run_07"
+  },
+  {
+    "run_id": 8,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_08/temp_config.yaml config/content_creation_config.yaml\n",
+    "output_dir": "batch_validation/run_08"
+  },
+  {
+    "run_id": 9,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_09/temp_config.yaml config/customer_service_config.yaml\n",
+    "output_dir": "batch_validation/run_09"
+  },
+  {
+    "run_id": 10,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_10/temp_config.yaml config/default_config.yaml\n",
+    "output_dir": "batch_validation/run_10"
+  },
+  {
+    "run_id": 11,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_11/temp_config.yaml config/content_creation_config.yaml\n",
+    "output_dir": "batch_validation/run_11"
+  },
+  {
+    "run_id": 12,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_12/temp_config.yaml config/customer_service_config.yaml\n",
+    "output_dir": "batch_validation/run_12"
+  },
+  {
+    "run_id": 13,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_13/temp_config.yaml config/default_config.yaml\n",
+    "output_dir": "batch_validation/run_13"
+  },
+  {
+    "run_id": 14,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_14/temp_config.yaml config/content_creation_config.yaml\n",
+    "output_dir": "batch_validation/run_14"
+  },
+  {
+    "run_id": 15,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_15/temp_config.yaml config/customer_service_config.yaml\n",
+    "output_dir": "batch_validation/run_15"
+  },
+  {
+    "run_id": 16,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_16/temp_config.yaml config/default_config.yaml\n",
+    "output_dir": "batch_validation/run_16"
+  },
+  {
+    "run_id": 17,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_17/temp_config.yaml config/content_creation_config.yaml\n",
+    "output_dir": "batch_validation/run_17"
+  },
+  {
+    "run_id": 18,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_18/temp_config.yaml config/customer_service_config.yaml\n",
+    "output_dir": "batch_validation/run_18"
+  },
+  {
+    "run_id": 19,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_19/temp_config.yaml config/default_config.yaml\n",
+    "output_dir": "batch_validation/run_19"
+  },
+  {
+    "run_id": 20,
+    "success": false,
+    "error": "usage: main.py [-h] [--config CONFIG] [--output-dir OUTPUT_DIR]\n               [--duration DURATION] [--agents AGENTS]\n               [--contractors CONTRACTORS] [--verbose]\nmain.py: error: unrecognized arguments: batch_validation/run_20/temp_config.yaml config/content_creation_config.yaml\n",
+    "output_dir": "batch_validation/run_20"
+  }
+]
