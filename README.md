@@ -35,26 +35,6 @@ COALESCE is an advanced multi-agent framework that enables autonomous LLM agents
 
 ## Validated Performance Results
 
-### 📊 **Mathematical Simulation Results** (260 runs across 13 configurations)
-- **Cost Reduction**: **50.2% ± 28.5%** average cost savings
-- **Time Savings**: **44.7% ± 4.0%** execution time improvement  
-- **Outsourcing Rate**: **33.0% ± 2.0%** robust contractor engagement
-- **Decision Quality**: **0.79 ± 0.15** TOPSIS score
-- **Success Rate**: **100%** (260/260 successful runs)
-
-### 🔬 **Real LLM Agent Validation Results** (35 tasks with actual API calls)
-
-| Metric | Mathematical Simulation | Real w/o Exploration | Real w/ ε-greedy |
-|--------|------------------------|---------------------|------------------|
-| **Cost Reduction** | 50.2% ± 28.5% | 1.9% | **20.3%** |
-| **Time Savings** | 44.7% ± 4.0% | 15.4% | **22.1%** |
-| **Outsourcing Rate** | 33.0% ± 2.0% | 5.7% | **11.4%** |
-| **Exploration Rate** | 10.0% (ε-greedy) | 0.0% | **11.4%** |
-| **Success Rate** | 100% (260/260) | 100% (35/35) | **100% (35/35)** |
-| **TOPSIS Score** | 0.79 ± 0.15 | 0.50 | **0.50** |
-| **API Calls Made** | N/A | 2 confirmed | **4 confirmed** |
-| **Exploration Working** | Yes | No | **Yes** |
-
 ### 🎯 **Key Findings**
 - **Exploration is Critical**: Without epsilon-greedy exploration, real implementation achieved only 1.9% cost reduction
 - **Proper ε-greedy Works**: With working exploration (10% rate), performance improved to 20.3% cost reduction
