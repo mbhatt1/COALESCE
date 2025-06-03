@@ -1,6 +1,6 @@
 # COALESCE: Cost-Optimized Agent Labor Exchange via Skill-based Competence Estimation
 
-A **comprehensive framework** implementing the COALESCE system described in the research paper "A Proposed Framework for Cost-Optimized and Secure Task Outsourcing Among Autonomous LLM Agents via Skill-based Competence Estimation."
+A **comprehensive framework** implementing the COALESCE system described in the research paper ["A Proposed Framework for Cost-Optimized and Secure Task Outsourcing Among Autonomous LLM Agents via Skill-based Competence Estimation"](https://arxiv.org/abs/2506.01900)
 
 ## Overview
 
